@@ -1,0 +1,128 @@
+@media(max-width:1000px) {
+  .footer__button {
+    width: 258px;
+  }
+}
+@media(max-width:800px) {
+  .nav__container {
+    overflow: hidden;
+    background-color: #181818;
+    position: relative;
+  }
+  .menu,
+  .nav__button {
+    display: none;
+  }
+  .menu__item {
+    color: #fff;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: block;
+  
+  }
+  .icon {
+    background: #ddd;
+    color: #fff;
+    display: block;
+    width: 25px;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav__container-logo {
+    width: 128px;
+    height: 31px;
+  }
+  .camera__left {
+    padding: 150px 30px 0 30px;
+  }
+  .footer__center {
+    flex-direction: column;
+  }
+  form {
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .footer__bottom {
+    flex-direction: column;
+  }
+  .footer__bottom-img {
+    margin-right: auto;
+    margin-top: 20px;
+  }
+} 
+@media (max-width:700px) {
+  .header__article {
+    padding-top: 200px;
+  }
+  .quartet__container {
+    grid-template-columns: 1fr;
+  }
+  .camera {
+    grid-template-columns: 1fr;
+  }
+  .monstera {
+    margin-top: 300px;
+  }
+
+  .photography__container--title {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .photography__container--text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .footer--one-article {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .footer--two-title,
+  .footer--three-title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer--two-text,
+  .footer--three-text {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+@media (max-width:600px) {
+  .photography {
+    padding-bottom: 50px;
+  }
+  .footer__top {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+@media(max-width:500px) {
+  .header__article {
+    margin-bottom: 20px;
+  }
+  .footer__button {
+    width: 158px;
+  }
+}
+@media (max-width:400px) {
+  .mount__block {
+    margin-bottom: 100px;
+    margin-left: 20px;
+  }
+  .monstera__block {
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  .monstera__info {
+    margin-left: 50px;
+  }
+  .clients__block {
+    margin-left: 0;
+  }
+  .hill__block {
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+}
