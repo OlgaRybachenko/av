@@ -80,6 +80,9 @@ h2::first-letter {
   background: url(imgav/IMAGE2.png);
   background-repeat: no-repeat;
 }
+.portfolio {
+  margin-left: 50px;
+}
 .header-cloud {
   position: absolute;
   left: 0;

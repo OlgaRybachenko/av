@@ -1,3 +1,9 @@
+@media(min-width:1530px){
+  .portfolio {
+    margin-left: 300px;
+  }
+}
+
 @media(max-width:1000px) {
   .footer__button {
     width: 258px;
